@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>About</title>
+    <link href="static/assets/img/logo.png" rel="icon" type="image/x-icon"/>
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+     <!--<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+    <div class="preloader-inner position-relative">
+      <div class="preloader-circle"></div>
+      <div class="preloader-img pere-text">
+        <img src="static/assets/img/loder.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>-->
+        <!-- Navigation-->
+       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"  height="500">
+            <div class="container"  height="500">
+                <a class="navbar-brand js-scroll-trigger"   height="500" href="#page-top"><img src="static/assets/img/logo.png" height="300" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/API.html">API</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/clients.html">Clients</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/contact.html">Contact</a></li>
+                        <!--    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/login.html">Login</a></li>-->
+
+                                        {% if session['logged_in'] %}
+                                      <!--   <li role="presentation" class="active"><a href="/logout">Logout</a></li>-->
+                                        <li role="presentation" class="nav-item active"><a class="nav-link js-scroll-trigger" href="/logout">Logout</a></li>
+                                        {%else%}
+                                        <!--<li><a  href="login.html"><i class="ti-user"></i>Login</a></li>-->
+                                        <li  class="nav-item active"><a class="nav-link js-scroll-trigger" href="/login.html"><i class="ti-user"></i>Login</a></li>
+                                        {%endif %}
+
+
+                    </ul></div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+
+              <div class="masthead-heading text-uppercase">ABOUT US</div>
+
+            </div>
+        </header>
+
+
+  <div style="margin: 7rem auto">
+  <div class="about-details section-padding30" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="about-details-cap mb-50">
+            <h2 class="h1-responsive font-weight-bold my-5">Advanced real-time churn prevention</h2>
+            <p>The moment any device attempts to connect to your site or app, you’ll be able to spot user behaviors and device information that leads to fraud, and stop that fraud attempt in real time.our community of analysts add evidence to make this fraud detection and prevention intelligence even more powerful and effective.</p>
+            <h2 class="h1-responsive font-weight-bold my-5">Our Mission</h2>
+            <p> We are looking to design, develop and provide a comprehensive fraud detection modeling system able to
+              undertand cusomer behaviour and automatically detect in real-time and adaptive manner the frauds through
+              analyzing the past transaction details of the customers and extract the behavioral patterns to set the model.
+              To reduce losses due to payment fraud for both merchants and electronic payment company.
+              |||||||
+              We intend to reach every inch of Palestine with our solution, to be the leading FinTech solution in fraud detection,
+              promote and empower merchants and financial institutions to adopt our solution, raise the awareness about the importance
+              our solution. We commit to operate in an economically, socially and environmentally responsible manner.
+              To establish lasting partnerships through the delivery of innovative, reliable, and secure payments solutions,
+              focused on enriching customer experience.
+            </p>
+            <h2 class="h1-responsive font-weight-bold my-5">Our Vision</h2>
+            <p>Tele-Seer vision  is to be the most trusted and innovative fraud detection, prevention and management solution in the digital
+              transaction industry, delivering best-in-class solutions to our valued customers in the markets we serve and
+              secure the flow of digital transaction.
+            </p>
+<div>
+<p>
+
+
+</p>
+</div>
+  <h2 class="h1-responsive font-weight-bold my-5">Our Team</h2>
+  <!-- Section description -->
+  <p >Tele-Seer has the right team, which consists of a diverse range of education backgrounds
+    with the right mix of work experience in the field of Tele-Seer startup. It has a data scientist for analyzing and translating the
+    data using sophisticated technology programs; a software engineer to evaluate and recommend tools, technologies and processes
+    to ensure the highest quality of provided services; a data engineer to find trends in data sets and develop new risk factors for
+    fraudulent actions to optimize the software; a programmer to write the optimal code, maintain standards and optimization,
+    address the issues of testing and quality, and move the correct code to production; business development to identify new business
+    opportunities for Tele-Seer including new markets, growth areas, trends, customers, and services; a business analyst to create a
+    detailed business analysis, outlining problems, opportunities and solutions for a Tele-Seer.</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--        &lt;!&ndash; About&ndash;&gt;-->
+<!--        <section class="page-section" id="about">-->
+<!--            <div class="container">-->
+<!--                <div class="text-center">-->
+<!--                    <h2 class="section-heading text-uppercase">About</h2>-->
+<!--                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+<!--                </div>-->
+<!--                <ul class="timeline">-->
+<!--                    <li>-->
+<!--                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/about/1.jpg" alt="" /></div>-->
+<!--                        <div class="timeline-panel">-->
+<!--                            <div class="timeline-heading">-->
+<!--                                <h4>2009-2011</h4>-->
+<!--                                <h4 class="subheading">Our Humble Beginnings</h4>-->
+<!--                            </div>-->
+<!--                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="timeline-inverted">-->
+<!--                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/about/2.jpg" alt="" /></div>-->
+<!--                        <div class="timeline-panel">-->
+<!--                            <div class="timeline-heading">-->
+<!--                                <h4>March 2011</h4>-->
+<!--                                <h4 class="subheading">An Agency is Born</h4>-->
+<!--                            </div>-->
+<!--                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/about/3.jpg" alt="" /></div>-->
+<!--                        <div class="timeline-panel">-->
+<!--                            <div class="timeline-heading">-->
+<!--                                <h4>December 2012</h4>-->
+<!--                                <h4 class="subheading">Transition to Full Service</h4>-->
+<!--                            </div>-->
+<!--                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="timeline-inverted">-->
+<!--                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/about/4.jpg" alt="" /></div>-->
+<!--                        <div class="timeline-panel">-->
+<!--                            <div class="timeline-heading">-->
+<!--                                <h4>July 2014</h4>-->
+<!--                                <h4 class="subheading">Phase Two Expansion</h4>-->
+<!--                            </div>-->
+<!--                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="timeline-inverted">-->
+<!--                        <div class="timeline-image">-->
+<!--                            <h4>-->
+<!--                                Be Part-->
+<!--                                <br />-->
+<!--                                Of Our-->
+<!--                                <br />-->
+<!--                                Story!-->
+<!--                            </h4>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </section>-->
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="static/assets/img/portfolio/01-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="static/assets/img/portfolio/02-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Explore</li>
+                                        <li>Category: Graphic Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="static/assets/img/portfolio/03-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Finish</li>
+                                        <li>Category: Identity</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="static/assets/img/portfolio/04-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Lines</li>
+                                        <li>Category: Branding</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="static/assets/img/portfolio/05-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Southwest</li>
+                                        <li>Category: Website Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="static/assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Window</li>
+                                        <li>Category: Photography</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="static/assets/mail/jqBootstrapValidation.js"></script>
+        <script src="static/assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/js/scripts.js"></script>
+    </body>
+</html>
